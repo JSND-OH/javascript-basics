@@ -26,7 +26,7 @@ btnContainer.addEventListener("click", function (e) {
     index = parseInt(e.target.dataset.index);
   }
   if (e.target.classList.contains("next-btn")) {
-    indext++;
+    index++;
     if (index > pages.length - 1) {
       index = 0;
     }
